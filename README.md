@@ -17,9 +17,10 @@ Cette application web est un projet personnel destiné à mon portfolio freelanc
 
 ## Capture d’écran
 
-![Capture de l'app météo](images/app-meteo-screenshot.png)
+![Démo de l'application météo](images/app-meteo-demo.gif)
 
-> *Pour un GIF animé, tu peux remplacer l'image par un fichier GIF montrant la météo en action.*
+
+> *Pour un GIF animé, remplacer l'image par un fichier GIF montrant la météo en action.*
 
 ---
 
