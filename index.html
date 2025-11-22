@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Météo Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <h1>🌤️ App Météo</h1>
+      <nav>
+        <a href="#weather-section">Météo</a>
+        <a href="#footer">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SECTION MÉTÉO -->
+  <section id="weather-section" class="container">
+    <h2>Vérifiez la météo de votre ville</h2>
+    
+    <input type="text" id="city-input" placeholder="Entrez une ville">
+    <button id="search-btn">Rechercher</button>
+    <label>
+      <input type="checkbox" id="unit-toggle"> Afficher en °F
+    </label>
+
+    <div id="weather-result">
+      <!-- Résultats météo -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <p>olirobz31 – <a href="https://github.com/olirobz31" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

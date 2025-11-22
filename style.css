@@ -1,0 +1,139 @@
+/* RESET & FOND */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  transition: background 1s ease;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: rgba(52, 152, 219, 0.9);
+  padding: 20px 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header h1 {
+  display: inline-block;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* SECTION MÉTÉO */
+.container {
+  margin: 120px auto 40px auto; /* espace sous le header */
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 50px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+input {
+  padding: 10px;
+  width: 180px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#weather-result {
+  margin-top: 20px;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+
+#weather-result img {
+  width: 100px;
+  height: 100px;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgba(52, 152, 219, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  .container {
+    margin: 140px 20px 40px 20px;
+    padding: 20px;
+  }
+
+  input {
+    width: 140px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  header nav {
+    float: none;
+    margin-top: 10px;
+  }
+
+  header nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
